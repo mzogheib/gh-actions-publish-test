@@ -14,4 +14,4 @@ jobs:
       - name: Bump the patch version
         uses: ./.github/actions/bump-version
         with:
-            type: 'patch'
+          type: "patch"
