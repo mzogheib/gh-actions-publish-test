@@ -1,0 +1,15 @@
+name: Version Patch Workflow
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out code
+        uses: actions/checkout@v4
+
+      - name: Create a new version
+        run: echo "Increment the patch version."
