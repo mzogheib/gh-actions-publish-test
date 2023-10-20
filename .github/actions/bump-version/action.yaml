@@ -11,5 +11,5 @@ inputs:
 runs:
   using: composite
   steps:
-    - run: echo "npm version ${{ inputs.type }} "
+    - run: echo "npm version ${{ inputs.type }}"
       shell: bash
