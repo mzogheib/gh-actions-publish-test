@@ -1,0 +1,11 @@
+name: 'Bump version'
+description: 'Bumps the major, minor or patch version'
+inputs:
+  type:
+    description: 'The type of version to bump'
+    required: true
+    default: 'patch'
+runs:
+  using: 'shell'
+  command: |
+    echo "npm version ${{ inputs.type }}"
