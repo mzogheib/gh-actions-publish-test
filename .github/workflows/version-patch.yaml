@@ -11,5 +11,7 @@ jobs:
       - name: Check out code
         uses: actions/checkout@v4
 
-      - name: Create a new version
-        run: echo "Increment the patch version."
+      - name: Bump the patch version
+        uses: ./.github/actions/bump-version
+        with:
+            type: 'patch'
