@@ -6,7 +6,6 @@ inputs:
   type:
     description: 'The type of version to bump'
     required: true
-    default: 'patch'
 
 runs:
   using: composite
