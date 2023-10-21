@@ -16,6 +16,11 @@ jobs:
       - name: Check out code
         uses: actions/checkout@v4
 
+      - name: setup git config
+        run: |
+          git config user.name "GitHub Actions Bot"
+          git config user.email "<>"
+
       - name: Create new ${{ inputs.type }} version
         run: npm version ${{ inputs.type }}
         shell: bash
