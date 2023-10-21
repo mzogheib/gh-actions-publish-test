@@ -24,3 +24,7 @@ jobs:
       - name: Create new ${{ inputs.type }} version
         run: npm version ${{ inputs.type }}
         shell: bash
+
+      - name: Push new version
+        run: git push origin main --tags
+        shell: bash
