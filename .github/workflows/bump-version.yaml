@@ -1,0 +1,21 @@
+name: Bump version
+
+on:
+  workflow_call:
+    inputs:
+      type:
+        description: "The type of version to bump"
+        type: string
+        required: true
+
+jobs:
+  Bump-Version:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out code
+        uses: actions/checkout@v4
+
+      - name: Create new version
+        run: echo "npm version ${{ inputs.type }}"
+        shell: bash
