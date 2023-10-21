@@ -16,6 +16,6 @@ jobs:
       - name: Check out code
         uses: actions/checkout@v4
 
-      - name: Create new version
+      - name: Create new ${{ inputs.type }} version
         run: echo "npm version ${{ inputs.type }}"
         shell: bash
