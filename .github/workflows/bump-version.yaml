@@ -17,5 +17,5 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Create new ${{ inputs.type }} version
-        run: echo "npm version ${{ inputs.type }}"
+        run: npm version ${{ inputs.type }}
         shell: bash
