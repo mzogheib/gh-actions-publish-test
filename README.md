@@ -28,5 +28,6 @@ This project demonstrates a GitHub Actions workflow that automates the tag & rel
 - Add branch protection to `main`
   - Require a pull request before merging
   - Require status checks to pass before merging
+    - Search for and select the action associated to the required status
   - Require branches to be up to date before merging
   - Require linear history
