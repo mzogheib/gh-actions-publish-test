@@ -17,3 +17,8 @@ This project demonstrates a GitHub Actions workflow that automates the tag & rel
   - Enforce on the `main` branch only
 - Configure GitHub to enforce PR title syntax
   - Enforce for PRs on the `main` branch only
+
+### GitHub settings
+
+- Enable "Read and write permissions" for GitHub Actions
+  - Settings > Actions > General > Workflow permissions
