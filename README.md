@@ -16,9 +16,12 @@ This project demonstrates a GitHub Actions workflow that automates the tag & rel
   - https://github.com/conventional-changelog/commitlint
   - Enforce on the `main` branch only
 - Configure GitHub to enforce PR title syntax
+  - https://github.com/marketplace/actions/semantic-pull-request
   - Enforce for PRs on the `main` branch only
 
 ### GitHub settings
 
 - Enable "Read and write permissions" for GitHub Actions
   - Settings > Actions > General > Workflow permissions
+- Enforce squashed merges
+  - Settings > General > Pull Requests > de-select "Allow merge commits"
