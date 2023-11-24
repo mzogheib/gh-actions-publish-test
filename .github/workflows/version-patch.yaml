@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  Bump-major-version:
+  Bump-patch-version:
     uses: ./.github/workflows/bump-version.yaml
     with:
       type: patch
