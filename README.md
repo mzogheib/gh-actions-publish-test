@@ -2,7 +2,7 @@
 
 ## Summary
 
-This project demonstrates a GitHub Actions workflow that automates the tag & release process.
+This project demonstrates a GitHub Actions workflow that automates the tag & release process for a NPM package.
 
 ## Target development process
 
