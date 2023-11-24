@@ -14,3 +14,6 @@ This project demonstrates a GitHub Actions workflow that automates the tag & rel
 
 - Configure a pre-commit hook to enforce commit message syntax
   - https://github.com/conventional-changelog/commitlint
+  - Enforce on the `main` branch only
+- Configure GitHub to enforce PR title syntax
+  - Enforce for PRs on the `main` branch only
