@@ -25,3 +25,5 @@ This project demonstrates a GitHub Actions workflow that automates the tag & rel
   - Settings > Actions > General > Workflow permissions
 - Enforce squashed merges
   - Settings > General > Pull Requests > de-select "Allow merge commits"
+
+## test section
