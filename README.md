@@ -27,6 +27,7 @@ This project demonstrates the setup required for tag & release automation.
 
 - Give GitHub Actions write access
   - Settings > Actions > General > Workflow permissions
+  - Select _"Read and write permissions"_
   - Select _"Allow GitHub Actions to create and approve pull requests"_
 - Enforce squashed merges
   - Settings > General > Pull Requests
