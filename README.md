@@ -49,3 +49,5 @@ This project demonstrates the setup required for tag & release automation.
     - Search for and select the action associated to the required status
   - Require branches to be up to date before merging
   - Require linear history
+
+## New section
