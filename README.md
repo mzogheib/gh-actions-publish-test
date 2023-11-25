@@ -26,7 +26,6 @@ This project demonstrates the setup required for tag & release automation.
     ```sh
     feat:
     fix:
-    deps:
     ```
     or breaking changes, which include a `!`:
     ```bash
