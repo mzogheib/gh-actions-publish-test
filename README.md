@@ -2,31 +2,36 @@
 
 ## Summary
 
-This project demonstrates a GitHub Actions workflow that automates the tag & release process for a NPM package.
+This project demonstrates the setup required for tag & release automation.
 
 ## Target development process
 
 1. Develop on feature branches
-2. Merge to `main` using a commit message syntax, e.g. [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/)
-3. Manually trigger the workflow from the GitHub Actions UI
+2. Merge to `main`
+3. Tags & release creation are automated
 
 ## Solution
 
 - Configure a pre-commit hook to enforce commit message syntax
   - https://github.com/conventional-changelog/commitlint
   - Enforce on the `main` branch only
+  - Not required if `main` is protected but good to be safe
 - Configure GitHub to enforce PR title syntax
   - https://github.com/marketplace/actions/semantic-pull-request
   - Enforce for PRs on the `main` branch only
 - Configure `release-please` to automatically create a release on push to `main`
   - https://github.com/google-github-actions/release-please-action
+  - Leverages the PR title syntax described above
 
 ### GitHub settings
 
-- Enable "Read and write permissions" and "Allow GitHub Actions to create and approve pull requests" for GitHub Actions
+- Give GitHub Actions write access
   - Settings > Actions > General > Workflow permissions
+  - Select _"Read and write permissions"_
+  - Select _"Allow GitHub Actions to create and approve pull requests"_
 - Enforce squashed merges
-  - Settings > General > Pull Requests > de-select "Allow merge commits"
+  - Settings > General > Pull Requests
+  - De-select _"Allow merge commits"_
 - Add branch protection to `main`
   - Require a pull request before merging
   - Require status checks to pass before merging
