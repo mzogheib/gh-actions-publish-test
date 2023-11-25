@@ -18,6 +18,8 @@ This project demonstrates a GitHub Actions workflow that automates the tag & rel
 - Configure GitHub to enforce PR title syntax
   - https://github.com/marketplace/actions/semantic-pull-request
   - Enforce for PRs on the `main` branch only
+- Configure `release-please` to automatically create a release on push to `main`
+  - https://github.com/google-github-actions/release-please-action
 
 ### GitHub settings
 
