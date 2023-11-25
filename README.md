@@ -23,7 +23,7 @@ This project demonstrates a GitHub Actions workflow that automates the tag & rel
 
 ### GitHub settings
 
-- Enable "Read and write permissions" for GitHub Actions
+- Enable "Read and write permissions" and "Allow GitHub Actions to create and approve pull requests" for GitHub Actions
   - Settings > Actions > General > Workflow permissions
 - Enforce squashed merges
   - Settings > General > Pull Requests > de-select "Allow merge commits"
