@@ -19,9 +19,20 @@ This project demonstrates the setup required for tag & release automation.
 - Configure GitHub to enforce PR title syntax
   - https://github.com/marketplace/actions/semantic-pull-request
   - Enforce for PRs on the `main` branch only
-- Configure `release-please` to automatically create a release on push to `main`
+- Configure `release-please` to automatically create a release PR on push to `main`
   - https://github.com/google-github-actions/release-please-action
-  - Leverages the PR title syntax described above
+  - **Note:** a release PR will only be created for releasable units, which are commits pre-fixed with:
+    ```sh
+    feat:
+    fix:
+    deps:
+    ```
+    or breaking changes, which include a `!`:
+    ```bash
+    refactor!:
+    fix!:
+    # etc.
+    ```
 
 ### GitHub settings
 
