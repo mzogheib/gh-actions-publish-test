@@ -1,6 +1,6 @@
 {
   "name": "gh-actions-publish-test-abc-123",
-  "version": "0.4.2",
+  "version": "0.4.3",
   "scripts": {
     "prepare": "husky install"
   },
