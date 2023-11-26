@@ -1,14 +1,16 @@
-# Tag & release automation
+# Tag, release & publish automation
 
 ## Summary
 
-This project demonstrates the setup required for tag & release automation.
+This project demonstrates the setup required for tag, release & publish automation.
 
-## Target development process
+## Development process
 
 1. Develop on feature branches
 2. Merge to `main`
-3. Tags & release creation are automated
+3. Release PR is created automatically and updated as more commits are made on `main`
+4. Manually merge the PR, which automatically creates the tag and release notes
+5. New version of the package is automatically published to NPM
 
 ## Solution
 
@@ -33,6 +35,8 @@ This project demonstrates the setup required for tag & release automation.
     fix!:
     # etc.
     ```
+- Configure a workflow to publish to NPM after `release-please` has created the release
+  - Done in the same workflow as above
 
 ### GitHub settings
 
@@ -49,5 +53,3 @@ This project demonstrates the setup required for tag & release automation.
     - Search for and select the action associated to the required status
   - Require branches to be up to date before merging
   - Require linear history
-
-## New section
