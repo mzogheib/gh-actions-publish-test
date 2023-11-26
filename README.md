@@ -21,7 +21,7 @@ This project demonstrates the setup required for tag, release & publish automati
 - Configure GitHub to enforce PR title syntax
   - https://github.com/marketplace/actions/semantic-pull-request
   - Enforce for PRs on the `main` branch only
-- Configure `release-please` to automatically create a release PR on push to `main`
+- Create a workflow to automatically create a release PR on push to `main`
   - https://github.com/google-github-actions/release-please-action
   - Leverages the PR title syntax described above
   - **Note:** a release PR will only be created for releasable units, which are commits pre-fixed with:
@@ -35,8 +35,8 @@ This project demonstrates the setup required for tag, release & publish automati
     fix!:
     # etc.
     ```
-- Configure a workflow to publish to NPM after `release-please` has created the release
-  - Done in the same workflow as above
+- Create a workflow to publish to NPM after a release has created the release
+  - Can be done in the same workflow as above or a new one
 
 ### GitHub settings
 
