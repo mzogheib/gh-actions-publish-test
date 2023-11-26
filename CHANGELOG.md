@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.4.1](https://github.com/mzogheib/gh-actions-publish-test/compare/v0.4.0...v0.4.1) (2023-11-26)
+
+
+### Bug Fixes
+
+* add registry url to workflow ([93d99ae](https://github.com/mzogheib/gh-actions-publish-test/commit/93d99ae95cd870eff00c492b4f86017decddfa1f))
+
 ## [0.4.0](https://github.com/mzogheib/gh-actions-publish-test/compare/v0.3.0...v0.4.0) (2023-11-26)
 
 
