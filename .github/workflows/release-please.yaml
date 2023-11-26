@@ -27,6 +27,7 @@ jobs:
         if: ${{ steps.release.outputs.release_created }}
       - uses: actions/setup-node@v3
         with:
+          registry-url: "https://registry.npmjs.org/"
           node-version-file: .nvmrc
           cache: npm
         if: ${{ steps.release.outputs.release_created }}
