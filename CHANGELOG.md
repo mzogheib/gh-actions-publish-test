@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.4.0](https://github.com/mzogheib/gh-actions-publish-test/compare/v0.3.0...v0.4.0) (2023-11-26)
+
+
+### Features
+
+* add publish step ([#16](https://github.com/mzogheib/gh-actions-publish-test/issues/16)) ([9eb4dae](https://github.com/mzogheib/gh-actions-publish-test/commit/9eb4daeaa831c23603acc0afea48bf5dc679554e))
+
 ## [0.3.0](https://github.com/mzogheib/gh-actions-publish-test/compare/v0.2.2...v0.3.0) (2023-11-25)
 
 
