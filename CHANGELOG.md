@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.4.3](https://github.com/mzogheib/gh-actions-publish-test/compare/v0.4.2...v0.4.3) (2023-11-26)
+
+
+### Bug Fixes
+
+* mock fix ([c548be6](https://github.com/mzogheib/gh-actions-publish-test/commit/c548be6042c5d3729d9d9cfb0f93c2cb3a3bf24f))
+
 ## [0.4.2](https://github.com/mzogheib/gh-actions-publish-test/compare/v0.4.1...v0.4.2) (2023-11-26)
 
 
