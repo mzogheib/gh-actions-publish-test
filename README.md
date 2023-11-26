@@ -14,6 +14,13 @@ This project demonstrates the setup required for tag, release & publish automati
 
 ## Solution
 
+### Summary
+
+- All commits on `main` adhere to [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/)
+- On every push to `main` GitHub Actions workflows parse those commits then tag, release and publish the package as required
+
+### Details
+
 - Configure a pre-commit hook to enforce commit message syntax
   - https://github.com/conventional-changelog/commitlint
   - Enforce on the `main` branch only
