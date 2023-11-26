@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.4.4](https://github.com/mzogheib/gh-actions-publish-test/compare/v0.4.3...v0.4.4) (2023-11-26)
+
+
+### Bug Fixes
+
+* change workflow trigger ([0368654](https://github.com/mzogheib/gh-actions-publish-test/commit/03686544702222674d4177fc67b25d837daa91df))
+
 ## [0.4.3](https://github.com/mzogheib/gh-actions-publish-test/compare/v0.4.2...v0.4.3) (2023-11-26)
 
 
