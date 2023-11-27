@@ -42,8 +42,9 @@ This project demonstrates the setup required for tag, release & publish automati
     fix!:
     # etc.
     ```
-- Create a workflow to publish to NPM after a release has created the release
-  - Can be done in the same workflow as above or a new one
+- Extend the workflow to publish to NPM after the release PR has been merged
+  - Create a separate action to run `npm publish`
+  - Call this action when the `release_created` output from `release-please-action` is `true`
 
 ### GitHub settings
 
