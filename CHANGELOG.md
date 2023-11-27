@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.5.0](https://github.com/mzogheib/gh-actions-publish-test/compare/v0.4.4...v0.5.0) (2023-11-27)
+
+
+### Features
+
+* revert to original workflow ([55e5d50](https://github.com/mzogheib/gh-actions-publish-test/commit/55e5d5017731d686f1cb208fa5b7746c1d91c030))
+
 ## [0.4.4](https://github.com/mzogheib/gh-actions-publish-test/compare/v0.4.3...v0.4.4) (2023-11-26)
 
 
