@@ -13,15 +13,15 @@ jobs:
   tag-release-publish:
     runs-on: ubuntu-latest
     steps:
-      # Tag & release
-      - uses: google-github-actions/release-please-action@v3
+      - name: Tag & release
+        uses: google-github-actions/release-please-action@v3
         id: release
         with:
           release-type: node
           package-name: gh-actions-publish-test-abc-123
 
-      # Publish to NPM
-      - uses: ./github/actions/publish
+      - name: Publish to NPM
+        uses: ./.github/actions/publish
         # The if statement ensures that a publication only occurs when
         # a new release is created from the release step above, i.e. the
         # release PR has been merged.
