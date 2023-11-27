@@ -1,0 +1,25 @@
+name: publish
+description: Publishes a new package version to NPM
+
+runs:
+  using: composite
+  steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+
+    - name: Setup Node
+      uses: actions/setup-node@v3
+      with:
+        registry-url: "https://registry.npmjs.org/"
+        node-version-file: .nvmrc
+        cache: npm
+
+    - name: Install
+      shell: bash
+      run: npm ci
+
+    - name: Publish to NPM
+      shell: bash
+      run: npm publish
+      env:
+        NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
