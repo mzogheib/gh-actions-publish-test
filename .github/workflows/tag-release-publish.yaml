@@ -20,6 +20,8 @@ jobs:
           release-type: node
           package-name: gh-actions-publish-test-abc-123
 
+      - uses: actions/checkout@v4
+
       - name: Publish to NPM
         uses: ./.github/actions/publish
         # The if statement ensures that a publication only occurs when
