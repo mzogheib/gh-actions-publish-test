@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.6.1](https://github.com/mzogheib/gh-actions-publish-test/compare/v0.6.0...v0.6.1) (2023-11-27)
+
+
+### Bug Fixes
+
+* fix workflow import ([3ee2fe9](https://github.com/mzogheib/gh-actions-publish-test/commit/3ee2fe997de55d5605b5351afb394e4dc9af0a71))
+
 ## [0.6.0](https://github.com/mzogheib/gh-actions-publish-test/compare/v0.5.0...v0.6.0) (2023-11-27)
 
 
