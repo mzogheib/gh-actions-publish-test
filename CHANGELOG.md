@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.6.2](https://github.com/mzogheib/gh-actions-publish-test/compare/v0.6.1...v0.6.2) (2023-11-27)
+
+
+### Bug Fixes
+
+* checkout action first ([3df7e01](https://github.com/mzogheib/gh-actions-publish-test/commit/3df7e01b081f1813ae9def3b87d7536cf0c6d247))
+
 ## [0.6.1](https://github.com/mzogheib/gh-actions-publish-test/compare/v0.6.0...v0.6.1) (2023-11-27)
 
 
