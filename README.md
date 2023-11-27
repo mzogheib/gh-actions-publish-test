@@ -16,7 +16,7 @@ This project demonstrates the setup required for tag, release & publish automati
 
 ### Summary
 
-- All commits on `main` adhere to [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/)
+- All commits on `main` adhere to [Conventional Commits](https://www.conventionalcommits.org)
 - On every push to `main` GitHub Actions workflows parse those commits then tag, release and publish the package as required
 
 ### Details
