@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.6.3](https://github.com/mzogheib/gh-actions-publish-test/compare/v0.6.2...v0.6.3) (2023-11-27)
+
+
+### Bug Fixes
+
+* pass npm token to action ([0985481](https://github.com/mzogheib/gh-actions-publish-test/commit/0985481acacbf349e85317df81a7a68a2a3b8f89))
+
 ## [0.6.2](https://github.com/mzogheib/gh-actions-publish-test/compare/v0.6.1...v0.6.2) (2023-11-27)
 
 
