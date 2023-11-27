@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.6.0](https://github.com/mzogheib/gh-actions-publish-test/compare/v0.5.0...v0.6.0) (2023-11-27)
+
+
+### Features
+
+* update publish workflow ([b1ff022](https://github.com/mzogheib/gh-actions-publish-test/commit/b1ff022d5fad37aaab545a39385c27cf362c74bf))
+
 ## [0.5.0](https://github.com/mzogheib/gh-actions-publish-test/compare/v0.4.4...v0.5.0) (2023-11-27)
 
 
