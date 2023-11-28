@@ -1,5 +1,16 @@
 # Changelog
 
+## [1.0.0](https://github.com/mzogheib/gh-actions-publish-test/compare/v0.6.3...v1.0.0) (2023-11-28)
+
+
+### ⚠ BREAKING CHANGES
+
+* trigger release
+
+### Features
+
+* trigger release ([6c08a13](https://github.com/mzogheib/gh-actions-publish-test/commit/6c08a13ab957bf4bc44b5b52bb44693d6b8d258f))
+
 ## [0.6.3](https://github.com/mzogheib/gh-actions-publish-test/compare/v0.6.2...v0.6.3) (2023-11-27)
 
 
