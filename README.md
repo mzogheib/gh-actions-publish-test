@@ -29,19 +29,30 @@ This project demonstrates the setup required for tag, release & publish automati
   - https://github.com/marketplace/actions/semantic-pull-request
   - Enforce for PRs on the `main` branch only
 - Create a workflow to automatically create a release PR on push to `main`
+
   - https://github.com/google-github-actions/release-please-action
   - Leverages the PR title syntax described above
   - **Note:** a release PR will only be created for releasable units, which are commits pre-fixed with:
+
     ```sh
+    # minor
     feat:
+
+    # patch
     fix:
+    perf:
+    refactor:
     ```
+
     or breaking changes, which include a `!`:
+
     ```bash
+    # major
     refactor!:
     fix!:
     # etc.
     ```
+
 - Extend the workflow to publish to NPM after the release PR has been merged
   - Create a separate action to run `npm publish`
   - Call this action when the `release_created` output from `release-please-action` is `true`
