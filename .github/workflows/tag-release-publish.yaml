@@ -26,7 +26,7 @@ jobs:
               {"type":"refactor","section":"🧰 Miscellaneous","hidden":false},
               {"type":"perf","section":"🧰 Miscellaneous","hidden":false}
             ]
-          pull-request-header: "📦 Draft release"
+          pull-request-header: "📦 New release"
 
       # Below will run when a new release is created from the release step
       # above, i.e. the release PR has been merged.
