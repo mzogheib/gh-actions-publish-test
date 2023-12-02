@@ -19,6 +19,13 @@ jobs:
         with:
           release-type: node
           package-name: gh-actions-publish-test-abc-123
+          changelog-types: |
+            [
+              {"type":"feat","section":"🚀 Features","hidden":false},
+              {"type":"fix","section":"🐛 Bug Fixes","hidden":false},
+              {"type":"refactor","section":"🧰 Miscellaneous","hidden":false},
+              {"type":"deps","section":"🧰 Miscellaneous","hidden":false}
+            ]
 
       # Below will run when a new release is created from the release step
       # above, i.e. the release PR has been merged.
