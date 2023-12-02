@@ -24,7 +24,7 @@ jobs:
               {"type":"feat","section":"🚀 Features","hidden":false},
               {"type":"fix","section":"🐛 Bug Fixes","hidden":false},
               {"type":"refactor","section":"🧰 Miscellaneous","hidden":false},
-              {"type":"deps","section":"🧰 Miscellaneous","hidden":false}
+              {"type":"perf","section":"🧰 Miscellaneous","hidden":false}
             ]
           pull-request-header: "📦 Draft release"
 
