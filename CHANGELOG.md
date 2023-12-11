@@ -1,28 +1,5 @@
 # Changelog
 
-## [2.0.0](https://github.com/mzogheib/gh-actions-publish-test/compare/v1.0.0...v2.0.0) (2023-12-02)
-
-
-### ⚠ BREAKING CHANGES
-
-* new function interfaces to support XYZ feature
-
-### 🚀 Features
-
-* new function interfaces to support XYZ feature ([37c3c8f](https://github.com/mzogheib/gh-actions-publish-test/commit/37c3c8f9f22245220258b864c1df771aacc755d9))
-* updated XYZ feature ([d4f6357](https://github.com/mzogheib/gh-actions-publish-test/commit/d4f6357d01bfd04b61b18d42acc1144aa5b82b0a))
-
-
-### 🐛 Bug Fixes
-
-* fixed XYZ feature ([b808518](https://github.com/mzogheib/gh-actions-publish-test/commit/b8085188e82dc6ff0435aee5eccb64714c7d7588))
-
-
-### 🧰 Miscellaneous
-
-* improve code ([ad494ef](https://github.com/mzogheib/gh-actions-publish-test/commit/ad494ef49a476203f851bb42202de327bd6a3909))
-* updated XYZ dependency ([0b806fc](https://github.com/mzogheib/gh-actions-publish-test/commit/0b806fc86c2b8a4f8b2e6abbec501ef714a48c78))
-
 ## [1.0.0](https://github.com/mzogheib/gh-actions-publish-test/compare/v0.6.3...v1.0.0) (2023-11-28)
 
 
