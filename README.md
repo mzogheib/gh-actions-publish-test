@@ -31,7 +31,6 @@ This project demonstrates the setup required for tag, release & publish automati
 - Create a workflow to automatically create a release PR on push to `main`
 
   - https://github.com/google-github-actions/release-please-action
-  - Leverages the PR title syntax described above
   - **Note:** a release PR will only be created for releasable units, which are commits pre-fixed with:
 
     ```sh
